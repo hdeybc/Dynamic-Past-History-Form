@@ -1,4 +1,5 @@
-import React, { useState, ChangeEvent } from 'react';
+import React, { useState } from 'react';
+import type { ChangeEvent } from 'react';
 import { Download, Upload, Plus, X, Clock } from 'lucide-react';
 
 interface Disease {
